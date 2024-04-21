@@ -16,7 +16,7 @@ Associated pre-processing including moving files and change names can be found i
 
 ## Model
 
-Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597].
+Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb
 
 ## Training
 
@@ -25,3 +25,9 @@ The model is trained with 30 epochs.
 ---
 
 ## Results
+
+From the last epoch, the trained image is shown here. 
+
+![Results/epochs30.png](Results/epochs30.png)
+
+It is hard to say the model can really count the firebrand. Clearly, more images and more training epochs are necessary. 
