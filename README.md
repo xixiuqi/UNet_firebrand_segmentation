@@ -16,4 +16,12 @@ Associated pre-processing including moving files and change names can be found i
 
 ## Model
 
-To be continued...
+Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597].
+
+## Training
+
+The model is trained with 30 epochs.
+
+---
+
+## Results
