@@ -43,4 +43,4 @@ And the overlap between the predictions and ground-truth(manual labeled) is
 The red ones are from ground-truth and white ones are from predictions. Most of the firebrand can be captured if my labelings are correct.
 
 Also, a simple script is added to characterize the firebrand including width, length, angle and number. 
-![Results/Results/firebrand_characterization.png](Results/Results/firebrand_characterization.png)
+![Results/firebrand_characterization.png](Results/firebrand_characterization.png)
