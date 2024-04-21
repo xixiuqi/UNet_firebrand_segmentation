@@ -7,7 +7,7 @@ The repository is to create a ML configuration that uses UNet to identify the fi
 ## Data
 
 The data are from the videos of firebrand generation experiments. Initial labelling is conducted manually through labelme [https://github.com/labelmeai/labelme]. 
-The sample images can be found in folder ./Datalabelme
+The sample images can be found in folder ./Data
 
 ## Data Augmentation
 
@@ -16,7 +16,7 @@ Associated pre-processing including moving files and change names can be found i
 
 ## Model
 
-Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb. The famous network
+Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb. Here is the famous network
 
 ![u-net-architecture.png](u-net-architecture.png)
 
