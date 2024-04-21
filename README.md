@@ -16,18 +16,28 @@ Associated pre-processing including moving files and change names can be found i
 
 ## Model
 
-Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb
+Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb. The famous network
+
+![u-net-architecture.png](u-net-architecture.png)
 
 ## Training
 
-The model is trained with 30 epochs.
+The model is trained with 100 epochs.
 
 ---
 
 ## Results
 
-From the last epoch, the trained image is shown here. 
+With 100 epochs. the loss figure shows the convergence. 
 
-![Results/epochs30.png](Results/epochs30.png)
+![Results/loss.png](Results/loss.png)
 
-It is hard to say the model can really count the firebrand. Clearly, more images and more training epochs are necessary. 
+The test image is
+
+![Results/test.jpg](Results/test.jpg)
+
+And the overlap between the predictions and ground-truth(manual labeled) is
+
+![Results/overlay_image.jpg](Results/overlay_image.jpg)
+
+The red ones are from ground-truth and white ones are from predictions. Most of the firebrand can be captured if my labelings are correct.
