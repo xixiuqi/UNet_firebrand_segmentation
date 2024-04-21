@@ -18,7 +18,7 @@ Associated pre-processing including moving files and change names can be found i
 
 Unet model can be found online. Reference goes [https://arxiv.org/abs/1505.04597]. The model is in UNetforfirebrand.ipynb. Here is the famous network
 
-![u-net-architecture.png](u-net-architecture.png)
+<img src="u-net-architecture.png" width="600">
 
 ## Training
 
@@ -30,17 +30,24 @@ The model is trained with 100 epochs.
 
 With 100 epochs. the loss figure shows the convergence. 
 
-![Results/loss.png](Results/loss.png)
+<img src="Results/loss.png" width="600">
 
 The test image is
 
-![Results/test.jpg](Results/test.jpg)
+<img src="Results/test.jpg" width="600">
+
 
 And the overlap between the predictions and ground-truth(manual labeled) is
 
-![Results/overlay_image.jpg](Results/overlay_image.jpg)
+<img src="Results/overlay_image.jpg" width="600">
 
 The red ones are from ground-truth and white ones are from predictions. Most of the firebrand can be captured if my labelings are correct.
 
 Also, a simple script is added to characterize the firebrand including width, length, angle and number. 
 ![Results/firebrand_characterization.png](Results/firebrand_characterization.png)
+
+Firebrand under a different condition is also tested to test the generalizability of current model. 
+
+![Results/model_generalization.png](Results/model_generalization.png)
+
+Major firebrand can be captured but a lot small fake predictions are made. 
