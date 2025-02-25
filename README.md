@@ -49,5 +49,3 @@ Also, a simple script is added to characterize the firebrand including width, le
 Firebrand under a different condition is also tested to test the generalizability of current model. 
 
 ![Results/model_generalization.png](Results/model_generalization.png)
-
-Major firebrand can be captured but a lot small fake predictions are made. 
